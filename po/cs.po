@@ -1,0 +1,2561 @@
+# Czech translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-08-23 17:08+0200\n"
+"PO-Revision-Date: 2022-09-01 19:16+0000\n"
+"Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/gaphor/gaphor/cs/>"
+"\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14.1-dev\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: gaphor/C4Model/modelinglanguage.py:17 gaphor/C4Model/toolbox.py:56
+#: gaphor/ui/greeter.py:29
+msgid "C4 Model"
+msgstr "Model C4"
+
+#: gaphor/C4Model/propertypages.glade:28 gaphor/C4Model/propertypages.ui:12
+msgid "Description"
+msgstr "Popis"
+
+#: gaphor/C4Model/propertypages.glade:75 gaphor/C4Model/propertypages.ui:39
+msgid "Technology"
+msgstr "Technologie"
+
+#: gaphor/C4Model/toolbox.py:30
+msgid "New Software System"
+msgstr "Nový softwarový systém"
+
+#: gaphor/C4Model/toolbox.py:37
+msgid "New Container"
+msgstr "Nový kontejner"
+
+#: gaphor/C4Model/toolbox.py:44
+msgid "Database"
+msgstr "Databáze"
+
+#: gaphor/C4Model/toolbox.py:45
+msgid "New Database"
+msgstr "Nová databáze"
+
+#: gaphor/C4Model/toolbox.py:52
+msgid "New Component"
+msgstr "Nová komponenta"
+
+#: gaphor/C4Model/toolbox.py:60 gaphor/C4Model/toolbox.py:66
+msgid "Person"
+msgstr "Osoba"
+
+#: gaphor/C4Model/toolbox.py:72
+msgid "Software System"
+msgstr "Softwarový systém"
+
+#: gaphor/C4Model/toolbox.py:84
+msgid "Container"
+msgstr "Kontejner"
+
+#: gaphor/C4Model/toolbox.py:96
+msgid "Container: Database"
+msgstr "Kontejner: databáze"
+
+#: gaphor/C4Model/toolbox.py:108 gaphor/UML/classes/classestoolbox.py:63
+msgid "Component"
+msgstr "Komponenta"
+
+#: gaphor/C4Model/toolbox.py:120 gaphor/RAAML/fta/ftatoolbox.py:20
+#: gaphor/UML/classes/classestoolbox.py:109
+#: gaphor/UML/classes/dependencypropertypages.py:16
+msgid "Dependency"
+msgstr "Závislost"
+
+#: gaphor/C4Model/toolbox.py:140
+msgid "New C4 Diagram"
+msgstr "Nové schéma C4"
+
+#: gaphor/C4Model/toolbox.py:141 gaphor/UML/toolbox.py:30
+msgid "New Class Diagram"
+msgstr "Diagram nové třídy"
+
+#: gaphor/C4Model/toolbox.py:142 gaphor/SysML/toolbox.py:72
+#: gaphor/UML/toolbox.py:34
+msgid "New Activity Diagram"
+msgstr "Nový diagram aktivit"
+
+#: gaphor/C4Model/toolbox.py:143 gaphor/SysML/toolbox.py:73
+#: gaphor/UML/toolbox.py:35
+msgid "New Sequence Diagram"
+msgstr "Nový sekvenční program"
+
+#: gaphor/C4Model/toolbox.py:144 gaphor/SysML/toolbox.py:74
+#: gaphor/UML/toolbox.py:37
+msgid "New State Machine Diagram"
+msgstr "Nové schéma stavového stroje"
+
+#: gaphor/RAAML/modelinglanguage.py:17 gaphor/ui/greeter.py:28
+msgid "RAAML"
+msgstr "RAAML"
+
+#: gaphor/RAAML/toolbox.py:19
+msgid "New FTA Diagram"
+msgstr "Nové schéma FTA"
+
+#: gaphor/RAAML/toolbox.py:20
+msgid "New STPA Diagram"
+msgstr "Nové schéma STPA"
+
+#: gaphor/RAAML/fta/andgate.py:37 gaphor/RAAML/fta/ftatoolbox.py:28
+msgid "AND Gate"
+msgstr "Brána AND"
+
+#: gaphor/RAAML/fta/basicevent.py:36 gaphor/RAAML/fta/ftatoolbox.py:129
+#: gaphor/RAAML/fta/ftatoolbox.py:135
+msgid "Basic Event"
+msgstr "Základní událost"
+
+#: gaphor/RAAML/fta/conditionalevent.py:33 gaphor/RAAML/fta/ftatoolbox.py:140
+#: gaphor/RAAML/fta/ftatoolbox.py:147
+msgid "Conditional Event"
+msgstr "Podmíněná událost"
+
+#: gaphor/RAAML/fta/dormantevent.py:35 gaphor/RAAML/fta/ftatoolbox.py:166
+#: gaphor/RAAML/fta/ftatoolbox.py:172
+msgid "Dormant Event"
+msgstr "Spící událost"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:16 gaphor/templates/raaml.gaphor
+msgid "Fault Tree Analysis"
+msgstr "Analýza stromu poruch"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:34
+msgid "AND"
+msgstr "AND"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:39 gaphor/RAAML/fta/orgate.py:37
+msgid "OR Gate"
+msgstr "Brána OR"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:45 gaphor/templates/raaml.gaphor
+msgid "OR"
+msgstr "NEBO"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:50 gaphor/RAAML/fta/notgate.py:35
+msgid "NOT Gate"
+msgstr "NE Brána"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:56
+msgid "NOT"
+msgstr "NE"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:61
+msgid "Sequence Enforcing (SEQ) Gate"
+msgstr "Brána vynucení sekvence (SEQ)"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:67
+msgid "SEQ"
+msgstr "SEQ"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:72
+msgid "Exclusive OR Gate"
+msgstr "Exkluzivní brána OR"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:78
+msgid "XOR"
+msgstr "XOR"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:83 gaphor/RAAML/fta/ftatoolbox.py:90
+#: gaphor/RAAML/fta/majorityvotegate.py:41
+msgid "Majority Vote Gate"
+msgstr "Brána majoritního hlasování"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:96 gaphor/RAAML/fta/ftatoolbox.py:102
+#: gaphor/RAAML/fta/inhibitgate.py:35
+msgid "Inhibit Gate"
+msgstr "Inhibiční brána"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:107 gaphor/RAAML/fta/ftatoolbox.py:113
+#: gaphor/RAAML/fta/transferin.py:35
+msgid "Transfer In"
+msgstr "Přenést dovnitř"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:118 gaphor/RAAML/fta/ftatoolbox.py:124
+#: gaphor/RAAML/fta/transferout.py:36
+msgid "Transfer Out"
+msgstr "Přenést ven"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:153 gaphor/RAAML/fta/ftatoolbox.py:160
+#: gaphor/RAAML/fta/undevelopedevent.py:36
+msgid "Undeveloped Event"
+msgstr "Nerozvinutá událost"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:177 gaphor/RAAML/fta/ftatoolbox.py:183
+#: gaphor/RAAML/fta/houseevent.py:35
+msgid "House Event"
+msgstr "Domácí událost"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:188 gaphor/RAAML/fta/ftatoolbox.py:194
+#: gaphor/RAAML/fta/zeroevent.py:36
+msgid "Zero Event"
+msgstr "Žádná událost"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:199 gaphor/RAAML/fta/ftatoolbox.py:205
+#: gaphor/RAAML/fta/topevent.py:32
+msgid "Top Event"
+msgstr "Top událost"
+
+#: gaphor/RAAML/fta/ftatoolbox.py:210 gaphor/RAAML/fta/ftatoolbox.py:217
+#: gaphor/RAAML/fta/intermediateevent.py:33
+msgid "Intermediate Event"
+msgstr "Přechodná událost"
+
+#: gaphor/RAAML/fta/seqgate.py:37
+msgid "Sequence Enforcing Gate"
+msgstr "Brána vynucující sekvenci"
+
+#: gaphor/RAAML/fta/xorgate.py:36
+msgid "XOR Gate"
+msgstr "Brána XOR"
+
+#: gaphor/RAAML/stpa/controlaction.py:33 gaphor/RAAML/stpa/stpatoolbox.py:155
+msgid "Control Action"
+msgstr "Ovládací akce"
+
+#: gaphor/RAAML/stpa/operationalsituation.py:34
+#: gaphor/RAAML/stpa/stpatoolbox.py:124
+msgid "Operational Situation"
+msgstr "Provozní situace"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:18 gaphor/RAAML/stpa/stpatoolbox.py:44
+#: gaphor/templates/raaml.gaphor
+msgid "Loss"
+msgstr "Ztráta"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:23 gaphor/RAAML/stpa/stpatoolbox.py:53
+#: gaphor/templates/raaml.gaphor
+msgid "Hazard"
+msgstr "Nebezpečí"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:28 gaphor/RAAML/stpa/stpatoolbox.py:113
+#: gaphor/templates/raaml.gaphor
+msgid "Abstract Operational Situation"
+msgstr "Abstraktní provozní situace"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:36 gaphor/SysML/blocks/blockstoolbox.py:81
+#: gaphor/UML/classes/classestoolbox.py:117
+msgid "Generalization"
+msgstr "Zobecnění"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:62 gaphor/SysML/blocks/block.py:61
+msgid "Situation"
+msgstr "Situace"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:73
+msgid "Control Structure"
+msgstr "Struktura řízení"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:84 gaphor/templates/sysml.gaphor
+msgid "Controller"
+msgstr "Ovladač"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:93 gaphor/templates/sysml.gaphor
+msgid "Actuator"
+msgstr "Pohon"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:102
+msgid "Controlled Process"
+msgstr "Řízený proces"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:135
+#: gaphor/RAAML/stpa/unsafecontrolaction.py:33
+msgid "Unsafe Control Action"
+msgstr "Nebezpečná kontrolní akce"
+
+#: gaphor/RAAML/stpa/stpatoolbox.py:146
+msgid "Relevant To"
+msgstr "Relevantní pro"
+
+#: gaphor/SysML/modelinglanguage.py:18 gaphor/ui/greeter.py:27
+msgid "SysML"
+msgstr "sysML"
+
+#: gaphor/SysML/propertypages.glade:28 gaphor/SysML/propertypages.ui:11
+msgid "Item Flow"
+msgstr "Průtok položky"
+
+#: gaphor/SysML/propertypages.glade:51 gaphor/SysML/propertypages.ui:28
+msgid "Item Property"
+msgstr "Vlastnost položky"
+
+#: gaphor/SysML/propertypages.glade:71 gaphor/SysML/propertypages.ui:43
+#: gaphor/UML/classes/propertypages.glade:48
+#: gaphor/UML/classes/propertypages.ui:22
+#: gaphor/UML/deployments/propertypages.glade:78
+#: gaphor/UML/deployments/propertypages.ui:42
+msgid "Invert direction"
+msgstr "Obrátit směr"
+
+#: gaphor/SysML/propertypages.glade:94 gaphor/SysML/propertypages.ui:59
+#: gaphor/UML/actions/propertypages.glade:264
+#: gaphor/UML/actions/propertypages.ui:201
+msgid "Allocated Type"
+msgstr "Přidělený typ"
+
+#: gaphor/SysML/propertypages.glade:123 gaphor/SysML/propertypages.ui:91
+msgid "Show Parts"
+msgstr "Zobrazit části"
+
+#: gaphor/SysML/propertypages.glade:146 gaphor/SysML/propertypages.ui:107
+msgid "Show References"
+msgstr "Zobrazit Reference"
+
+#: gaphor/SysML/propertypages.glade:172 gaphor/SysML/propertypages.ui:123
+msgid "Show Values"
+msgstr "Zobrazit hodnoty"
+
+#: gaphor/SysML/propertypages.glade:197 gaphor/SysML/propertypages.ui:78
+msgid "Compartments"
+msgstr "Přihrátky"
+
+#: gaphor/SysML/propertypages.glade:212 gaphor/SysML/propertypages.ui:149
+msgid "Aggregation"
+msgstr "Agregace"
+
+#: gaphor/SysML/propertypages.glade:226 gaphor/SysML/propertypages.ui:159
+#: gaphor/UML/classes/propertypages.glade:119
+#: gaphor/UML/classes/propertypages.glade:246
+#: gaphor/UML/classes/propertypages.ui:111
+#: gaphor/UML/classes/propertypages.ui:238
+msgid "No aggregation"
+msgstr "Žádná akregace"
+
+#: gaphor/SysML/propertypages.glade:227 gaphor/SysML/propertypages.ui:160
+#: gaphor/UML/classes/propertypages.glade:120
+#: gaphor/UML/classes/propertypages.glade:247
+#: gaphor/UML/classes/propertypages.ui:112
+#: gaphor/UML/classes/propertypages.ui:239
+msgid "Shared"
+msgstr "Společný"
+
+#: gaphor/SysML/propertypages.glade:228 gaphor/SysML/propertypages.ui:161
+#: gaphor/UML/classes/propertypages.glade:121
+#: gaphor/UML/classes/propertypages.glade:248
+#: gaphor/UML/classes/propertypages.ui:113
+#: gaphor/UML/classes/propertypages.ui:240
+msgid "Composite"
+msgstr "Kompozitní"
+
+#: gaphor/SysML/propertypages.glade:248 gaphor/SysML/propertypages.ui:178
+msgid "Id"
+msgstr "ld"
+
+#: gaphor/SysML/propertypages.glade:272 gaphor/SysML/propertypages.ui:192
+msgid "Text"
+msgstr "Text"
+
+#: gaphor/SysML/toolbox.py:25
+msgid "Internal Blocks"
+msgstr "Interní bloky"
+
+#: gaphor/SysML/toolbox.py:29
+msgid "Connector"
+msgstr "Konektor"
+
+#: gaphor/SysML/toolbox.py:36
+msgid "Property"
+msgstr "Vlastnost"
+
+#: gaphor/SysML/toolbox.py:45
+msgid "Proxy Port"
+msgstr "Proxy port"
+
+#: gaphor/SysML/toolbox.py:68
+msgid "New Block Definition Diagram"
+msgstr "Nové schéma definice bloku"
+
+#: gaphor/SysML/toolbox.py:69
+msgid "New Internal Block Diagram"
+msgstr "Nové interní blokové schéma"
+
+#: gaphor/SysML/toolbox.py:70 gaphor/UML/toolbox.py:31
+msgid "New Package Diagram"
+msgstr "Schéma nového balíčku"
+
+#: gaphor/SysML/toolbox.py:71
+msgid "New Requirement Diagram"
+msgstr "Diagram nových požadavků"
+
+#: gaphor/SysML/toolbox.py:75 gaphor/UML/toolbox.py:38
+msgid "New Use Case Diagram"
+msgstr "Nový diagram případů užití"
+
+#: gaphor/SysML/blocks/block.py:63
+msgid "ControlStructure"
+msgstr "KontrolníStruktura"
+
+#: gaphor/SysML/blocks/block.py:65
+msgid "block"
+msgstr "blokovat"
+
+#: gaphor/SysML/blocks/block.py:98
+msgid "parts"
+msgstr "části"
+
+#: gaphor/SysML/blocks/block.py:109
+msgid "references"
+msgstr "Reference"
+
+#: gaphor/SysML/blocks/block.py:120
+msgid "values"
+msgstr "hodnoty"
+
+#: gaphor/SysML/blocks/block.py:137
+msgid "unnamed"
+msgstr "nejmenovaný"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:28
+msgid "Blocks"
+msgstr "Bloky"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:32
+msgid "Block"
+msgstr "Blok"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:42
+#: gaphor/UML/classes/classestoolbox.py:51
+msgid "Package"
+msgstr "Balíček"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:54
+#: gaphor/UML/classes/classestoolbox.py:82
+msgid "Composite Association"
+msgstr "Kompozitní asociace"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:64
+#: gaphor/UML/classes/classestoolbox.py:92
+msgid "Shared Association"
+msgstr "Sdílené sdružení"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:74
+#: gaphor/UML/classes/classestoolbox.py:102
+#: gaphor/UML/usecases/usecasetoolbox.py:44
+msgid "Association"
+msgstr "Asociace"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:88
+msgid "ValueType"
+msgstr "Typ hodnoty"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:99
+#: gaphor/UML/classes/classestoolbox.py:144
+msgid "Enumeration"
+msgstr "Výčet"
+
+#: gaphor/SysML/blocks/blockstoolbox.py:111
+#: gaphor/UML/classes/classestoolbox.py:156
+msgid "Primitive"
+msgstr "Primitivní"
+
+#: gaphor/SysML/blocks/proxyport.py:34
+msgid "proxy"
+msgstr "proxy"
+
+#: gaphor/SysML/requirements/relationships.py:34
+msgid "satisfy"
+msgstr "uspokojit"
+
+#: gaphor/SysML/requirements/relationships.py:44
+msgid "deriveReqt"
+msgstr "deriveReqt"
+
+#: gaphor/SysML/requirements/relationships.py:50
+msgid "trace"
+msgstr "stopa"
+
+#: gaphor/SysML/requirements/relationships.py:58
+msgid "verify"
+msgstr "ověřit"
+
+#: gaphor/SysML/requirements/relationships.py:66
+msgid "refine"
+msgstr "upřesnit"
+
+#: gaphor/SysML/requirements/requirement.py:62
+msgid "requirement"
+msgstr "požadavek"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:17
+#: gaphor/templates/sysml.gaphor
+msgid "Requirements"
+msgstr "Požadavky"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:21
+msgid "Requirement"
+msgstr "Požadavek"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:33
+msgid "Satisfy"
+msgstr "Uspokojit"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:40
+msgid "Derive Requirement"
+msgstr "Odvození požadavku"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:47
+msgid "Trace"
+msgstr "Stopa"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:54
+msgid "Refine"
+msgstr "Upřesnit"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:61
+msgid "Verify"
+msgstr "Ověřit"
+
+#: gaphor/SysML/requirements/requirementstoolbox.py:68
+#: gaphor/UML/classes/classestoolbox.py:75
+msgid "Containment"
+msgstr "Omezení"
+
+#: gaphor/UML/modelinglanguage.py:16 gaphor/ui/greeter.py:26
+msgid "UML"
+msgstr "UML"
+
+#: gaphor/UML/sanitizerservice.py:71
+msgid ""
+"Removed unused elements from the model: they are not used in any other "
+"diagram."
+msgstr ""
+"Odstraněny nepoužívané prvky z modelu: nepoužívají se v žádném jiném "
+"diagramu."
+
+#: gaphor/UML/toolbox.py:32
+msgid "New Component Diagram"
+msgstr "Nové schéma složek"
+
+#: gaphor/UML/toolbox.py:33
+msgid "New Deployment Diagram"
+msgstr "Nový diagram nasazení"
+
+#: gaphor/UML/toolbox.py:36
+msgid "New Communication Diagram"
+msgstr "Nový komunikační diagram"
+
+#: gaphor/UML/toolbox.py:39
+msgid "New Profile Diagram"
+msgstr "Nové schéma profilu"
+
+#: gaphor/UML/umlfmt.py:203
+msgid "general: {name}"
+msgstr "obecné: {name}"
+
+#: gaphor/UML/umlfmt.py:208
+msgid "supplier: {name}"
+msgstr "dodavatel: {name}"
+
+#: gaphor/UML/umlfmt.py:215
+msgid "extend: {name}"
+msgstr "rozšířit: {name}"
+
+#: gaphor/UML/umlfmt.py:222
+msgid "include: {name}"
+msgstr "zahrnout: {name}"
+
+#: gaphor/UML/actions/actionstoolbox.py:21
+#: gaphor/UML/interactions/interactionstoolbox.py:20
+#: gaphor/UML/states/statestoolbox.py:31 gaphor/diagram/diagramtoolbox.py:38
+msgid "New {name}"
+msgstr "Nové {name}"
+
+#: gaphor/UML/actions/actionstoolbox.py:44
+#: gaphor/UML/actions/actionstoolbox.py:66 gaphor/templates/sysml.gaphor
+#: gaphor/templates/uml.gaphor
+msgid "Activity"
+msgstr "Aktivita"
+
+#: gaphor/UML/actions/actionstoolbox.py:52
+msgid "Swimlane One"
+msgstr "Swimlane One"
+
+#: gaphor/UML/actions/actionstoolbox.py:56
+msgid "Swimlane Two"
+msgstr "Swimlane Two"
+
+#: gaphor/UML/actions/actionstoolbox.py:62
+msgid "Actions"
+msgstr "Akce"
+
+#: gaphor/UML/actions/actionstoolbox.py:78
+#: gaphor/UML/actions/actionstoolbox.py:84
+msgid "Action"
+msgstr "Akce"
+
+#: gaphor/UML/actions/actionstoolbox.py:90
+msgid "Initial node"
+msgstr "Počáteční uzel"
+
+#: gaphor/UML/actions/actionstoolbox.py:102
+msgid "Activity final node"
+msgstr "Konečný uzel aktivity"
+
+#: gaphor/UML/actions/actionstoolbox.py:114
+msgid "Flow final node"
+msgstr "Konečný uzel toku"
+
+#: gaphor/UML/actions/actionstoolbox.py:126
+msgid "Decision/merge node"
+msgstr "Rozhodovací/slučovací uzel"
+
+#: gaphor/UML/actions/actionstoolbox.py:138
+msgid "Fork/join node"
+msgstr "Režim Fork/připojit"
+
+#: gaphor/UML/actions/actionstoolbox.py:150
+#: gaphor/UML/actions/actionstoolbox.py:156
+msgid "Object node"
+msgstr "Objektový uzel"
+
+#: gaphor/UML/actions/actionstoolbox.py:162
+msgid "Swimlane"
+msgstr "Swimlane"
+
+#: gaphor/UML/actions/actionstoolbox.py:174
+msgid "Control flow"
+msgstr "Řídicí tok"
+
+#: gaphor/UML/actions/actionstoolbox.py:181
+msgid "Object flow"
+msgstr "Tok objektů"
+
+#: gaphor/UML/actions/actionstoolbox.py:188
+msgid "Send signal action"
+msgstr "Akce odeslání signálu"
+
+#: gaphor/UML/actions/actionstoolbox.py:194
+msgid "Send signal"
+msgstr "Odeslat signál"
+
+#: gaphor/UML/actions/actionstoolbox.py:200
+msgid "Accept event action"
+msgstr "Akceptovat akci události"
+
+#: gaphor/UML/actions/actionstoolbox.py:206
+msgid "Accept event"
+msgstr "Přijmout událost"
+
+#: gaphor/UML/actions/actionstoolbox.py:212
+msgid "Input pin"
+msgstr "Vstupní pin"
+
+#: gaphor/UML/actions/actionstoolbox.py:219
+msgid "Output pin"
+msgstr "Výstupní pin"
+
+#: gaphor/UML/actions/activitynodes.py:193
+msgid "merge/decision"
+msgstr "sloučit/rozhodnout"
+
+#: gaphor/UML/actions/activitynodes.py:195
+msgid "merge"
+msgstr "sloučit"
+
+#: gaphor/UML/actions/activitynodes.py:197
+msgid "decision"
+msgstr "rozhodnutí"
+
+#: gaphor/UML/actions/objectnode.py:14
+#: gaphor/UML/actions/propertypages.glade:217
+#: gaphor/UML/actions/propertypages.ui:163
+msgid "unordered"
+msgstr "neuspořádané"
+
+#: gaphor/UML/actions/objectnode.py:15
+#: gaphor/UML/actions/propertypages.glade:218
+#: gaphor/UML/actions/propertypages.ui:164
+msgid "ordered"
+msgstr "objednáno"
+
+#: gaphor/UML/actions/objectnode.py:16
+msgid "LIFO"
+msgstr "LIFO"
+
+#: gaphor/UML/actions/objectnode.py:17
+msgid "FIFO"
+msgstr "FIFO"
+
+#: gaphor/UML/actions/partitionpage.py:112
+msgid "New Swimlane"
+msgstr "Nový Swimlane"
+
+#: gaphor/UML/actions/pin.py:59
+msgid "input pin"
+msgstr "vstupní pin"
+
+#: gaphor/UML/actions/pin.py:65
+msgid "output pin"
+msgstr "výstupní pin"
+
+#: gaphor/UML/actions/propertypages.glade:28
+#: gaphor/UML/actions/propertypages.ui:11
+msgid "Show type"
+msgstr "Zobrazit typ"
+
+#: gaphor/UML/actions/propertypages.glade:57
+#: gaphor/UML/actions/propertypages.ui:37
+msgid "Horizontal"
+msgstr "Horizontální"
+
+#: gaphor/UML/actions/propertypages.glade:83
+#: gaphor/UML/actions/propertypages.ui:59
+msgid "Join Specification"
+msgstr "Připojit specifikace"
+
+#: gaphor/UML/actions/propertypages.glade:116
+#: gaphor/UML/actions/propertypages.ui:89
+msgid "Swimlanes"
+msgstr "Swimlanes"
+
+#: gaphor/UML/actions/propertypages.glade:129
+#: gaphor/UML/actions/propertypages.ui:100
+msgid "Partitions"
+msgstr "Oddíly"
+
+#: gaphor/UML/actions/propertypages.glade:170
+#: gaphor/UML/actions/propertypages.ui:130
+msgid "Upper Bound"
+msgstr "Horní hranice"
+
+#: gaphor/UML/actions/propertypages.glade:193
+#: gaphor/UML/actions/propertypages.ui:147
+msgid "Show Ordering"
+msgstr "Zobrazit řazení"
+
+#: gaphor/UML/actions/propertypages.glade:219
+#: gaphor/UML/actions/propertypages.ui:165
+msgid "Last In First Out (LIFO)"
+msgstr "Poslední nastupuje, první vystupuje (LIFO)"
+
+#: gaphor/UML/actions/propertypages.glade:220
+#: gaphor/UML/actions/propertypages.ui:166
+msgid "First In First Out (FIFO)"
+msgstr "První dovnitř, první ven (FIFO)"
+
+#: gaphor/UML/actions/propertypages.glade:247
+#: gaphor/UML/actions/propertypages.ui:189
+#: gaphor/UML/classes/propertypages.glade:610
+#: gaphor/UML/classes/propertypages.ui:527
+#: gaphor/UML/profiles/propertypages.glade:25
+#: gaphor/UML/profiles/propertypages.ui:9
+msgid "Name"
+msgstr "Jméno"
+
+#: gaphor/UML/actions/propertypages.glade:296
+#: gaphor/UML/actions/propertypages.ui:223
+#: gaphor/UML/states/propertypages.glade:180
+#: gaphor/UML/states/propertypages.ui:66
+msgid "Guard"
+msgstr "Strážce"
+
+#: gaphor/UML/actions/propertypages.glade:322
+#: gaphor/UML/actions/propertypages.ui:245
+msgid "Parameter Nodes"
+msgstr "Parametr Uzlů"
+
+#: gaphor/UML/actions/propertypages.glade:350
+#: gaphor/UML/actions/propertypages.ui:271
+msgid "Parameters"
+msgstr "Parametry"
+
+#: gaphor/UML/actions/propertypages.glade:381
+#: gaphor/UML/actions/propertypages.ui:294
+#: gaphor/UML/classes/propertypages.glade:94
+#: gaphor/UML/classes/propertypages.glade:221
+#: gaphor/UML/classes/propertypages.glade:441
+#: gaphor/UML/classes/propertypages.glade:739
+#: gaphor/UML/classes/propertypages.glade:865
+#: gaphor/UML/classes/propertypages.ui:68
+#: gaphor/UML/classes/propertypages.ui:195
+#: gaphor/UML/classes/propertypages.ui:388
+#: gaphor/UML/classes/propertypages.ui:643
+#: gaphor/UML/classes/propertypages.ui:752
+msgid "🛈 Help"
+msgstr "🛈 Nápověda"
+
+#: gaphor/UML/actions/propertypages.glade:408
+msgid ""
+"Add and edit activity parameter nodes according to UML syntax.\n"
+"\n"
+"  • <tt>parameter</tt> (input, name)\n"
+"  • <tt>out attr: int</tt> (output with type)\n"
+"  • <tt>in attr: int[0..1]</tt> (input, type, and multiplicity)\n"
+"\n"
+"Press <b>Enter</b> to edit, <b>Backspace</b>/<b>Delete</b> to remove "
+"items.\n"
+"Use <b>-</b>/<b>=</b> to move items up or down."
+msgstr ""
+"Přidávat a upravovat uzly parametrů aktivit podle syntaxe UML.\n"
+"\n"
+"  - <tt>parametr</tt> (vstup, název)\n"
+"  - <tt>out attr: int</tt> (výstup s typem)\n"
+"  - <tt>in attr: int[0..1]</tt> (vstup, typ a násobnost)\n"
+"\n"
+"Stiskněte <b>Enter</b> pro editaci, <b>Backspace</b>/<b>Delete</b> pro "
+"odstranění položek.\n"
+"Pomocí <b>-</b>/<b>=</b> přesunete položky nahoru nebo dolů."
+
+#: gaphor/UML/actions/propertypages.ui:310
+msgid ""
+"Add and edit class activity according to UML syntax.\n"
+"\n"
+"  • <tt>attr</tt> (name, defaults to public visibility)\n"
+"  • <tt>+ attr: int</tt> (public with type)\n"
+"  • <tt>+ attr: int[0..1]</tt> (public, type, and multiplicity)\n"
+"  • <tt>+ attr: int | bool</tt> (public, union type)\n"
+"  • <tt># /attr: int # a note</tt> (protected, derived, with remark)\n"
+"\n"
+"Press <b>Enter</b> to edit, <b>Backspace</b>/<b>Delete</b> to remove "
+"items.\n"
+"Use <b>-</b>/<b>=</b> to move items up or down."
+msgstr ""
+"Přidání a úprava aktivity třídy podle syntaxe UML.\n"
+"\n"
+"  - <tt>attr</tt> (název, výchozí hodnota je public visibility)\n"
+"  - <tt>+ attr: int</tt> (public s typem)\n"
+"  - <tt>+ attr: int[0..1]</tt> (public, typ a násobnost)\n"
+"  - <tt>+ attr: int | bool</tt> (veřejný, typ unie)\n"
+"  - <tt># /attr: int # a note</tt> (chráněný, odvozený, s poznámkou)\n"
+"\n"
+"Stiskněte <b>Enter</b> pro úpravu, <b>Backspace</b>/<b>Delete</b> pro "
+"odstranění položek.\n"
+"Pomocí <b>-</b>/<b>=</b> přesunete položky nahoru nebo dolů."
+
+#: gaphor/UML/classes/classespropertypages.py:340
+#: gaphor/UML/classes/classespropertypages.py:427
+msgid "Static"
+msgstr "Statické"
+
+#: gaphor/UML/classes/classespropertypages.py:427
+#: gaphor/UML/classes/propertypages.glade:496
+#: gaphor/UML/classes/propertypages.ui:435
+msgid "Abstract"
+msgstr "Abstraktní"
+
+#: gaphor/UML/classes/classestoolbox.py:25
+msgid "Classes"
+msgstr "Třídy"
+
+#: gaphor/UML/classes/classestoolbox.py:29
+#: gaphor/UML/profiles/profilestoolbox.py:18
+msgid "Class"
+msgstr "Třída"
+
+#: gaphor/UML/classes/classestoolbox.py:39
+msgid "Interface"
+msgstr "Rozhraní"
+
+#: gaphor/UML/classes/classestoolbox.py:125
+msgid "Interface Realization"
+msgstr "Realizace rozhraní"
+
+#: gaphor/UML/classes/classestoolbox.py:132
+msgid "DataType"
+msgstr "Datový typ"
+
+#: gaphor/UML/classes/datatype.py:57
+msgid "primitive"
+msgstr "primitivní"
+
+#: gaphor/UML/classes/datatype.py:59 gaphor/UML/classes/enumeration.py:74
+msgid "valueType"
+msgstr "typ hodnoty"
+
+#: gaphor/UML/classes/datatype.py:61
+msgid "dataType"
+msgstr "datový typ"
+
+#: gaphor/UML/classes/dependency.py:51
+msgid "use"
+msgstr "použít"
+
+#: gaphor/UML/classes/dependency.py:52
+msgid "realize"
+msgstr "realizovat"
+
+#: gaphor/UML/classes/dependency.py:53
+msgid "implements"
+msgstr "implementace"
+
+#: gaphor/UML/classes/dependencypropertypages.py:17
+msgid "Usage"
+msgstr "Použití"
+
+#: gaphor/UML/classes/dependencypropertypages.py:18
+msgid "Realization"
+msgstr "Realizace"
+
+#: gaphor/UML/classes/dependencypropertypages.py:19
+msgid "Implementation"
+msgstr "Implementace"
+
+#: gaphor/UML/classes/enumeration.py:76
+msgid "enumeration"
+msgstr "výčet"
+
+#: gaphor/UML/classes/interface.py:290
+msgid "interface"
+msgstr "rozhraní"
+
+#: gaphor/UML/classes/klass.py:59
+msgid "stereotype"
+msgstr "stereotyp"
+
+#: gaphor/UML/classes/klass.py:61
+msgid "metaclass"
+msgstr "metatřída"
+
+#: gaphor/UML/classes/package.py:29
+msgid "profile"
+msgstr "profil"
+
+#: gaphor/UML/classes/propertypages.glade:29
+#: gaphor/UML/classes/propertypages.ui:12
+msgid "Show Direction"
+msgstr "Zobrazit směr"
+
+#: gaphor/UML/classes/propertypages.glade:107
+#: gaphor/UML/classes/propertypages.glade:234
+#: gaphor/UML/classes/propertypages.ui:101
+#: gaphor/UML/classes/propertypages.ui:228
+msgid "Unknown navigation"
+msgstr "Neznámá navigace"
+
+#: gaphor/UML/classes/propertypages.glade:108
+#: gaphor/UML/classes/propertypages.glade:235
+#: gaphor/UML/classes/propertypages.ui:102
+#: gaphor/UML/classes/propertypages.ui:229
+msgid "Not navigable"
+msgstr "Nesplavné"
+
+#: gaphor/UML/classes/propertypages.glade:109
+#: gaphor/UML/classes/propertypages.glade:236
+#: gaphor/UML/classes/propertypages.ui:103
+#: gaphor/UML/classes/propertypages.ui:230
+msgid "Navigable"
+msgstr "Splavné"
+
+#: gaphor/UML/classes/propertypages.glade:140
+#: gaphor/UML/classes/propertypages.glade:267
+#: gaphor/UML/classes/propertypages.glade:397
+#: gaphor/UML/classes/propertypages.glade:454
+#: gaphor/UML/classes/propertypages.ui:128
+#: gaphor/UML/classes/propertypages.ui:255
+#: gaphor/UML/classes/propertypages.ui:309
+#: gaphor/UML/classes/propertypages.ui:352
+#: gaphor/UML/profiles/propertypages.glade:93
+#: gaphor/UML/profiles/propertypages.ui:65
+msgid "Attributes"
+msgstr "Atributy"
+
+#: gaphor/UML/classes/propertypages.glade:160
+#: gaphor/UML/classes/propertypages.glade:287
+#: gaphor/UML/classes/propertypages.ui:148
+#: gaphor/UML/classes/propertypages.ui:275
+#: gaphor/UML/profiles/propertypages.glade:113
+#: gaphor/UML/profiles/propertypages.ui:85
+msgid "Value"
+msgstr "Hodnota"
+
+#: gaphor/UML/classes/propertypages.glade:181
+#: gaphor/UML/classes/propertypages.ui:50
+msgid "Head:"
+msgstr "Vedoucí:"
+
+#: gaphor/UML/classes/propertypages.glade:309
+#: gaphor/UML/classes/propertypages.ui:177
+msgid "Tail:"
+msgstr "Ocas:"
+
+#: gaphor/UML/classes/propertypages.glade:339
+#: gaphor/UML/classes/propertypages.ui:84
+#: gaphor/UML/classes/propertypages.ui:211
+msgid ""
+"Add and edit association ends according to UML syntax.\n"
+"\n"
+"  • <tt>+ name</tt>\n"
+"  • <tt>+ name[1]</tt>\n"
+"  • <tt>- name[1..2]</tt>\n"
+"  • <tt>1..2</tt>\n"
+"  • <tt>- [1..2]</tt>\n"
+"\n"
+"Press <b>Enter</b> to edit, <b>Backspace</b>/<b>Delete</b> to remove "
+"items.\n"
+"Use <b>-</b>/<b>=</b> to move items up or down."
+msgstr ""
+"Přidávání a úprava konců asociací podle syntaxe UML.\n"
+"\n"
+"  - <tt>+ název</tt>\n"
+"  - <tt>+ name[1]</tt>\n"
+"  - <tt>- name[1..2]</tt>\n"
+"  - <tt>1..2</tt>\n"
+"  - <tt>- [1..2]</tt>\n"
+"\n"
+"Stiskněte <b>Enter</b> pro úpravu, <b>Backspace</b>/<b>Delete</b> pro "
+"odstranění položek.\n"
+"Pomocí <b>-</b>/<b>=</b> přesunete položky nahoru nebo dolů."
+
+#: gaphor/UML/classes/propertypages.glade:361
+#: gaphor/UML/classes/propertypages.ui:322
+msgid "Show Attributes"
+msgstr "Zobrazit atributy"
+
+#: gaphor/UML/classes/propertypages.glade:415
+#: gaphor/UML/classes/propertypages.glade:713
+#: gaphor/UML/classes/propertypages.ui:370
+#: gaphor/UML/classes/propertypages.ui:624
+msgid "S"
+msgstr "S"
+
+#: gaphor/UML/classes/propertypages.glade:480
+#: gaphor/UML/classes/propertypages.ui:405
+msgid ""
+"Add and edit class attributes according to UML syntax.\n"
+"\n"
+"  • <tt>attr</tt> (name, defaults to public visibility)\n"
+"  • <tt>+ attr: int</tt> (public with type)\n"
+"  • <tt>+ attr: int[0..1]</tt> (public, type, and multiplicity)\n"
+"  • <tt>+ attr: int | bool</tt> (public, union type)\n"
+"  • <tt># /attr: int # a note</tt> (protected, derived, with remark)\n"
+"\n"
+"Press <b>Enter</b> to edit, <b>Backspace</b>/<b>Delete</b> to remove "
+"items.\n"
+"Use <b>-</b>/<b>=</b> to move items up or down."
+msgstr ""
+"Přidávat a upravovat atributy tříd podle syntaxe UML.\n"
+"\n"
+"  - <tt>attr</tt> (název, výchozí hodnota je public visibility)\n"
+"  - <tt>+ attr: int</tt> (veřejný s typem)\n"
+"  - <tt>+ attr: int[0..1]</tt> (public, typ a násobnost)\n"
+"  - <tt>+ attr: int | bool</tt> (veřejný, typ unie)\n"
+"  - <tt># /attr: int # a note</tt> (chráněný, odvozený, s poznámkou)\n"
+"\n"
+"Stiskněte <b>Enter</b> pro úpravu, <b>Backspace</b>/<b>Delete</b> pro "
+"odstranění položek.\n"
+"Pomocí <b>-</b>/<b>=</b> přesunete položky nahoru nebo dolů."
+
+#: gaphor/UML/classes/propertypages.glade:522
+#: gaphor/UML/classes/propertypages.ui:457
+msgid "Dependency type"
+msgstr "Typ závislosti"
+
+#: gaphor/UML/classes/propertypages.glade:535
+#: gaphor/UML/classes/propertypages.ui:468
+msgid "Automatic"
+msgstr "Automatický"
+
+#: gaphor/UML/classes/propertypages.glade:582
+#: gaphor/UML/classes/propertypages.ui:504
+msgid "Folded"
+msgstr "Složené"
+
+#: gaphor/UML/classes/propertypages.glade:646
+#: gaphor/UML/classes/propertypages.ui:563
+msgid "Show Operations"
+msgstr "Zobrazit operace"
+
+#: gaphor/UML/classes/propertypages.glade:682
+#: gaphor/UML/classes/propertypages.glade:752
+#: gaphor/UML/classes/propertypages.ui:550
+#: gaphor/UML/classes/propertypages.ui:593
+msgid "Operations"
+msgstr "Operace"
+
+#: gaphor/UML/classes/propertypages.glade:700
+#: gaphor/UML/classes/propertypages.ui:611
+msgid "A"
+msgstr "A"
+
+#: gaphor/UML/classes/propertypages.glade:776
+#: gaphor/UML/classes/propertypages.ui:657
+msgid ""
+"Add and edit class operations according to UML syntax.\n"
+"\n"
+"  • <tt>call()</tt>\n"
+"  • <tt>+ call(a: int[*], b: str): bool</tt> (public, parameters)\n"
+"  • <tt># call(a: int, b: str) # a note</tt> (protected, with remark)\n"
+"\n"
+"Press <b>Enter</b> to edit, <b>Backspace</b>/<b>Delete</b> to remove "
+"items.\n"
+"Use <b>-</b>/<b>=</b> to move items up or down."
+msgstr ""
+"Přidávat a upravovat operace tříd podle syntaxe UML.\n"
+"\n"
+"  - <tt>call()</tt>\n"
+"  - <tt>+ call(a: int[*], b: str): bool</tt> (public, parameters)\n"
+"  - <tt># call(a: int, b: str) # poznámka</tt> (protected, s poznámkou)\n"
+"\n"
+"Stiskněte <b>Enter</b> pro úpravu, <b>Backspace</b>/<b>Delete</b> pro "
+"odstranění položek.\n"
+"Pomocí <b>-</b>/<b>=</b> přesunete položky nahoru nebo dolů."
+
+#: gaphor/UML/classes/propertypages.glade:798
+#: gaphor/UML/classes/propertypages.ui:699
+msgid "Show Enumeration Literals"
+msgstr "Zobrazit výčtové literály"
+
+#: gaphor/UML/classes/propertypages.glade:835
+#: gaphor/UML/classes/propertypages.glade:878
+#: gaphor/UML/classes/propertypages.ui:686
+#: gaphor/UML/classes/propertypages.ui:729
+msgid "Enumeration Literals"
+msgstr "Literály výčtu"
+
+#: gaphor/UML/classes/propertypages.glade:900
+#: gaphor/UML/classes/propertypages.ui:764
+msgid ""
+"Add and edit enumeration literals according to UML syntax.\n"
+"\n"
+"  • <tt>enum</tt>\n"
+"\n"
+"Press <b>Enter</b> to edit, <b>Backspace</b>/<b>Delete</b> to remove "
+"items.\n"
+"Use <b>-</b>/<b>=</b> to move items up or down."
+msgstr ""
+"Přidávání a úprava výčtových literálů podle syntaxe UML.\n"
+"\n"
+"  - <tt>enum</tt>\n"
+"\n"
+"Stiskněte <b>Enter</b> pro úpravu, <b>Backspace</b>/<b>Delete</b> pro "
+"odstranění položek.\n"
+"Pomocí <b>-</b>/<b>=</b> přesunete položky nahoru nebo dolů."
+
+#: gaphor/UML/classes/propertypages.glade:916
+#: gaphor/UML/classes/propertypages.ui:795
+msgid "Indirectly Instantiated"
+msgstr "Nepřímo instanční"
+
+#: gaphor/UML/deployments/deploymentstoolbox.py:16
+msgid "Deployments"
+msgstr "Nasazení"
+
+#: gaphor/UML/deployments/deploymentstoolbox.py:20
+msgid "Artifact"
+msgstr "Artefakt"
+
+#: gaphor/UML/deployments/deploymentstoolbox.py:32
+msgid "Node"
+msgstr "Node"
+
+#: gaphor/UML/deployments/deploymentstoolbox.py:44
+msgid "Device"
+msgstr "Zařízení"
+
+#: gaphor/UML/deployments/node.py:54
+msgid "device"
+msgstr "zařízení"
+
+#: gaphor/UML/deployments/propertypages.glade:28
+#: gaphor/UML/deployments/propertypages.ui:11
+msgid "Information Flow"
+msgstr "Tok informací"
+
+#: gaphor/UML/deployments/propertypages.glade:51
+#: gaphor/UML/deployments/propertypages.ui:29
+msgid "Information Item (Class)"
+msgstr "Informační položka (třída)"
+
+#: gaphor/UML/interactions/interactionsconnect.py:82
+msgid "call()"
+msgstr "call()"
+
+#: gaphor/UML/interactions/interactionstoolbox.py:38
+#: gaphor/UML/interactions/interactionstoolbox.py:59
+#: gaphor/templates/sysml.gaphor gaphor/templates/uml.gaphor
+msgid "Interaction"
+msgstr "Interakce"
+
+#: gaphor/UML/interactions/interactionstoolbox.py:55
+#: gaphor/templates/uml.gaphor
+msgid "Interactions"
+msgstr "Interakce"
+
+#: gaphor/UML/interactions/interactionstoolbox.py:71
+msgid "Lifeline"
+msgstr "_Lifeline"
+
+#: gaphor/UML/interactions/interactionstoolbox.py:83
+msgid "Execution Specification"
+msgstr "Specifikace provedení"
+
+#: gaphor/UML/interactions/interactionstoolbox.py:91
+msgid "Message"
+msgstr "Zpráva"
+
+#: gaphor/UML/interactions/interactionstoolbox.py:98
+msgid "Reflexive message"
+msgstr "Reflexivní zpráva"
+
+#: gaphor/UML/interactions/propertypages.glade:25
+#: gaphor/UML/interactions/propertypages.ui:9
+msgid "Message Sort"
+msgstr "Třídění zpráv"
+
+#: gaphor/UML/profiles/packageimport.py:26
+msgid "import"
+msgstr "import"
+
+#: gaphor/UML/profiles/profilestoolbox.py:22
+msgid "Profiles"
+msgstr "Profily"
+
+#: gaphor/UML/profiles/profilestoolbox.py:26
+msgid "Profile"
+msgstr "Profil"
+
+#: gaphor/UML/profiles/profilestoolbox.py:38
+msgid "Metaclass"
+msgstr "Metatřída"
+
+#: gaphor/UML/profiles/profilestoolbox.py:48
+msgid "Stereotype"
+msgstr "Stereotyp"
+
+#: gaphor/UML/profiles/profilestoolbox.py:60
+msgid "Extension"
+msgstr "Rozšíření"
+
+#: gaphor/UML/profiles/profilestoolbox.py:67
+msgid "Import"
+msgstr "Importovat"
+
+#: gaphor/UML/profiles/propertypages.glade:61
+#: gaphor/UML/profiles/propertypages.ui:44
+msgid "Show Stereotypes"
+msgstr "Zobrazit stereotypy"
+
+#: gaphor/UML/profiles/propertypages.glade:137
+#: gaphor/UML/profiles/propertypages.ui:31
+msgid "Stereotypes"
+msgstr "Stereotypy"
+
+#: gaphor/UML/states/propertypages.glade:39
+#: gaphor/UML/states/propertypages.ui:104
+msgid "Show Regions"
+msgstr "Zobrazit regiony"
+
+#: gaphor/UML/states/propertypages.glade:62
+#: gaphor/UML/states/propertypages.glade:84
+#: gaphor/UML/states/propertypages.ui:91 gaphor/UML/states/propertypages.ui:120
+#, fuzzy
+msgid "Regions"
+msgstr "Agregace"
+
+#: gaphor/UML/states/propertypages.glade:105
+#: gaphor/UML/states/propertypages.ui:20
+msgid "Entry"
+msgstr "Položka"
+
+#: gaphor/UML/states/propertypages.glade:122
+#: gaphor/UML/states/propertypages.ui:31
+msgid "Exit"
+msgstr "Odejít"
+
+#: gaphor/UML/states/propertypages.glade:142
+#: gaphor/UML/states/propertypages.ui:42
+msgid "Do Activity"
+msgstr "Provést činnost"
+
+#: gaphor/UML/states/propertypages.glade:164
+#: gaphor/UML/states/propertypages.ui:9
+msgid "Activities"
+msgstr "Činnosti"
+
+#: gaphor/UML/states/statemachine.py:41
+msgid "statemachine"
+msgstr "státní stroj"
+
+#: gaphor/UML/states/statestoolbox.py:20 gaphor/UML/states/statestoolbox.py:79
+msgid "State"
+msgstr "Stát"
+
+#: gaphor/UML/states/statestoolbox.py:50 gaphor/UML/states/statestoolbox.py:67
+#: gaphor/templates/sysml.gaphor
+msgid "State Machine"
+msgstr "Státní stroj"
+
+#: gaphor/UML/states/statestoolbox.py:63
+msgid "States"
+msgstr "Státy"
+
+#: gaphor/UML/states/statestoolbox.py:91
+msgid "Initial Pseudostate"
+msgstr "Počáteční pseudostav"
+
+#: gaphor/UML/states/statestoolbox.py:103
+msgid "Final State"
+msgstr "Konečný stav"
+
+#: gaphor/UML/states/statestoolbox.py:115
+msgid "Transition"
+msgstr "Přechod"
+
+#: gaphor/UML/states/statestoolbox.py:122
+msgid "Shallow History Pseudostate"
+msgstr "Pseudostatní mělká historie"
+
+#: gaphor/UML/states/statestoolbox.py:134
+#, fuzzy
+msgid "Deep History Pseudostate"
+msgstr "Historie Pseudostate"
+
+#: gaphor/UML/states/statestoolbox.py:146
+#, fuzzy
+msgid "Join Pseudostate"
+msgstr "Počáteční pseudostav"
+
+#: gaphor/UML/states/statestoolbox.py:158
+msgid "Fork Pseudostate"
+msgstr "Pseudostát vidlice"
+
+#: gaphor/UML/states/statestoolbox.py:170
+#, fuzzy
+msgid "Junction Pseudostate"
+msgstr "Počáteční pseudostav"
+
+#: gaphor/UML/states/statestoolbox.py:182
+msgid "Choice Pseudostate"
+msgstr "Volba pseudostátu"
+
+#: gaphor/UML/states/statestoolbox.py:194
+msgid "Entry Point Pseudostate"
+msgstr "Vstupní bod Pseudostát"
+
+#: gaphor/UML/states/statestoolbox.py:206
+#, fuzzy
+msgid "Exit Point Pseudostate"
+msgstr "Počáteční pseudostav"
+
+#: gaphor/UML/states/statestoolbox.py:218
+#, fuzzy
+msgid "Terminate Pseudostate"
+msgstr "Počáteční pseudostav"
+
+#: gaphor/UML/usecases/extend.py:22
+msgid "extend"
+msgstr "rozšířit"
+
+#: gaphor/UML/usecases/include.py:22
+msgid "include"
+msgstr "zahrnout"
+
+#: gaphor/UML/usecases/usecasetoolbox.py:16 gaphor/templates/sysml.gaphor
+#: gaphor/templates/uml.gaphor
+msgid "Use Cases"
+msgstr "Případy použití"
+
+#: gaphor/UML/usecases/usecasetoolbox.py:20
+msgid "Use case"
+msgstr "Případ použití"
+
+#: gaphor/UML/usecases/usecasetoolbox.py:32 gaphor/templates/uml.gaphor
+msgid "Actor"
+msgstr "Herec"
+
+#: gaphor/UML/usecases/usecasetoolbox.py:51
+msgid "Include"
+msgstr "Zahrnout"
+
+#: gaphor/UML/usecases/usecasetoolbox.py:59
+msgid "Extend"
+msgstr "Rozšířit"
+
+#: gaphor/diagram/diagramtoolbox.py:111
+msgid "General"
+msgstr "Obecné"
+
+#: gaphor/diagram/diagramtoolbox.py:115
+msgid "Pointer"
+msgstr "Ukazatel"
+
+#: gaphor/diagram/diagramtoolbox.py:122
+msgid "Magnet"
+msgstr "Magnet"
+
+#: gaphor/diagram/diagramtoolbox.py:129
+msgid "Line"
+msgstr "Řádek"
+
+#: gaphor/diagram/diagramtoolbox.py:136
+msgid "Box"
+msgstr "Box"
+
+#: gaphor/diagram/diagramtoolbox.py:144
+msgid "Ellipse"
+msgstr "Elips"
+
+#: gaphor/diagram/diagramtoolbox.py:152 gaphor/diagram/propertypages.glade:25
+#: gaphor/diagram/propertypages.ui:9
+msgid "Comment"
+msgstr "Komentář"
+
+#: gaphor/diagram/diagramtoolbox.py:160
+msgid "Comment line"
+msgstr "Řádek komentáře"
+
+#: gaphor/diagram/presentation.py:49
+msgid "(from {namespace})"
+msgstr "(od {namespace})"
+
+#: gaphor/diagram/propertypages.glade:68 gaphor/diagram/propertypages.ui:46
+msgid "Rectilinear"
+msgstr "Přímočarý"
+
+#: gaphor/diagram/propertypages.glade:77 gaphor/diagram/propertypages.ui:52
+msgid "Flip orientation"
+msgstr "Orientace převrácení"
+
+#: gaphor/diagram/propertypages.glade:92 gaphor/diagram/propertypages.ui:35
+msgid "Style"
+msgstr "Styl"
+
+#: gaphor/diagram/propertypages.glade:126 gaphor/diagram/propertypages.ui:67
+msgid "Note or Remark"
+msgstr "Poznámka"
+
+#: gaphor/diagram/tools/dnd.py:39 gaphor/ui/diagrampage.py:350
+msgid "Element can’t be represented on a diagram."
+msgstr "Prvek nelze znázornit na diagramu."
+
+#: gaphor/extensions/sphinx.py:65
+msgid "No model file configured for model '{model_name}'."
+msgstr "Pro model '{model_name}' není nakonfigurován žádný soubor modelu."
+
+#: gaphor/extensions/sphinx.py:94
+msgid "No diagram '{name}' in model '{model_name}' ({model_file})."
+msgstr "V modelu '{model_name}' ({model_file}) není žádný diagram '{name}'."
+
+#: gaphor/plugins/console/console.py:24
+msgid ""
+"Gaphor Interactive Python Console\n"
+"{version}\n"
+"Type \"help\" for more information.\n"
+msgstr ""
+"Interaktivní konzole Gaphor Python\n"
+"{version}\n"
+"Pro více informací zadejte \"help\".\n"
+
+#: gaphor/plugins/console/consolewindow.py:23
+msgid "Gaphor Console"
+msgstr "Konzole Gaphor"
+
+#: gaphor/plugins/console/consolewindow.py:46
+msgid "Console"
+msgstr "Konzole"
+
+#: gaphor/plugins/diagramexport/__init__.py:45
+msgid "All {ext} Files"
+msgstr "Všechny soubory {ext}"
+
+#: gaphor/plugins/diagramexport/__init__.py:51
+msgid "Export as SVG"
+msgstr "Exportovat jako SVG"
+
+#: gaphor/plugins/diagramexport/__init__.py:52
+#: gaphor/plugins/diagramexport/__init__.py:57
+msgid "Export diagram as SVG"
+msgstr "Exportovat diagram jako SVG"
+
+#: gaphor/plugins/diagramexport/__init__.py:62
+msgid "Export as PNG"
+msgstr "Exportovat jako PNG"
+
+#: gaphor/plugins/diagramexport/__init__.py:63
+#: gaphor/plugins/diagramexport/__init__.py:68
+msgid "Export diagram as PNG"
+msgstr "Exportovat diagram jako PNG"
+
+#: gaphor/plugins/diagramexport/__init__.py:73
+msgid "Export as PDF"
+msgstr "Exportovat jako PDF"
+
+#: gaphor/plugins/diagramexport/__init__.py:74
+#: gaphor/plugins/diagramexport/__init__.py:80
+msgid "Export diagram as PDF"
+msgstr "Exportovat diagram jako PDF"
+
+#: gaphor/plugins/errorreports/errorreports.glade:7
+#: gaphor/plugins/errorreports/errorreports.py:65
+#: gaphor/plugins/errorreports/errorreports.ui:6
+msgid "Error Reports"
+msgstr "Chybové hlášení"
+
+#: gaphor/plugins/errorreports/errorreports.glade:21
+#: gaphor/plugins/errorreports/errorreports.ui:18
+msgid ""
+"Any unhandled errors are shown here. You can use these to provide extra "
+"information when you create an issue on GitHub."
+msgstr ""
+"Zde se zobrazí všechny neošetřené chyby. Můžete je použít k poskytnutí "
+"dalších informací při vytváření problému na GitHubu."
+
+#: gaphor/plugins/errorreports/errorreports.py:102
+msgid "No errors have been intercepted. We’re good."
+msgstr "Nebyly zachyceny žádné chyby. Jsme v pořádku."
+
+#: gaphor/plugins/errorreports/errorreports.py:106
+msgid "Errors:"
+msgstr "Chyby:"
+
+#: gaphor/plugins/errorreports/errorreports.py:155
+msgid ""
+"An unexpected error occurred.\n"
+"Please file an issue on GitHub and include information from Tools → Error"
+" Reports."
+msgstr ""
+"Došlo k neočekávané chybě.\n"
+"Vyplňte prosím problém na GitHubu a uveďte informace z Nástroje → Chybové"
+" hlášení."
+
+#: gaphor/plugins/xmiexport/__init__.py:25
+msgid "Export as XMI"
+msgstr "Exportovat jako XMI"
+
+#: gaphor/plugins/xmiexport/__init__.py:26
+msgid "Export model as XMI (XML Model Interchange) format"
+msgstr "Export modelu ve formátu XMI (XML Model Interchange)"
+
+#: gaphor/plugins/xmiexport/__init__.py:43
+msgid "Export model as XMI file"
+msgstr "Exportujte model jako soubor XMI"
+
+#: gaphor/plugins/xmiexport/__init__.py:47
+msgid "All XMI Files"
+msgstr "Všechny soubory XMI"
+
+#: gaphor/services/helpservice/about.ui:7 gaphor/ui/mainwindow.py:60
+msgid "About Gaphor"
+msgstr "O programu Gaphor"
+
+#: gaphor/services/helpservice/about.ui:9
+msgid "Copyright © 2001-2022 Arjan J. Molenaar and Dan Yeaw"
+msgstr "Copyright © 2001-2022 Arjan J. Molenaar a Dan Yeaw"
+
+#: gaphor/services/helpservice/about.ui:10
+msgid "Gaphor is the simple modeling tool written in Python"
+msgstr "Gaphor je jednoduchý modelovací nástroj napsaný v jazyce Python"
+
+#: gaphor/services/helpservice/about.ui:12
+msgid "Fork me on GitHub"
+msgstr "Forkněte mě na GitHubu"
+
+#: gaphor/services/helpservice/about.ui:30
+msgid ""
+"Licensed under the Apache License, Version 2.0 (the \"License\");\n"
+"you may not use this application except in compliance with the\n"
+"License. You may obtain a copy of the License at\n"
+"\n"
+"http://www.apache.org/licenses/LICENSE-2.0\n"
+"\n"
+"Unless required by applicable law or agreed to in writing, software\n"
+"distributed under the License is distributed on an \"AS IS\" BASIS,\n"
+"WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either\n"
+"express or implied. See the License for the specific language\n"
+"governing permissions and limitations under the License.\n"
+"\n"
+"---\n"
+"\n"
+"UML, SysML, and RAAML are either registered trademarks or\n"
+"trademarks of Object Management Group, Inc. in the United States\n"
+"and/or other countries.\n"
+msgstr ""
+"Licencováno pod licencí Apache, verze 2.0 (dále jen \"licence\");\n"
+"tuto aplikaci smíte používat pouze v souladu s touto licencí.\n"
+"Licence. Kopii Licence můžete získat na adrese\n"
+"\n"
+"http://www.apache.org/licenses/LICENSE-2.0\n"
+"\n"
+"Pokud to nevyžadují platné právní předpisy nebo to není písemně "
+"dohodnuto, software\n"
+"distribuován \"TAK, JAK JE\",\n"
+"BEZ ZÁRUK A PODMÍNEK JAKÉHOKOLI DRUHU, ať už se jedná o\n"
+"výslovné nebo předpokládané. Konkrétní znění naleznete v licenci\n"
+"upravující oprávnění a omezení v rámci Licence.\n"
+"\n"
+"---\n"
+"\n"
+"UML, SysML a RAAML jsou\n"
+"ochranné známky společnosti Object Management Group, Inc. ve Spojených "
+"státech,\n"
+"a/nebo v jiných zemích.\n"
+
+#: gaphor/services/helpservice/shortcuts.ui:18
+msgid "Application"
+msgstr "Aplikace"
+
+#: gaphor/services/helpservice/shortcuts.ui:24
+#: gaphor/ui/elementeditor.glade:199 gaphor/ui/elementeditor.glade:269
+#: gaphor/ui/elementeditor.glade:390 gaphor/ui/elementeditor.ui:195
+#: gaphor/ui/elementeditor.ui:206
+msgid "Preferences"
+msgstr "Předvolby"
+
+#: gaphor/services/helpservice/shortcuts.ui:32
+msgid "Quit Gaphor"
+msgstr "Ukončit Gaphor"
+
+#: gaphor/services/helpservice/shortcuts.ui:43
+msgid "Files"
+msgstr "Soubory"
+
+#: gaphor/services/helpservice/shortcuts.ui:49
+msgid "New Window"
+msgstr "Nové okno"
+
+#: gaphor/services/helpservice/shortcuts.ui:57
+msgid "Open"
+msgstr "Otevřít"
+
+#: gaphor/services/helpservice/shortcuts.ui:65 gaphor/ui/filemanager.py:314
+#: gaphor/ui/mainwindow.py:49
+msgid "Save"
+msgstr "Uložit"
+
+#: gaphor/services/helpservice/shortcuts.ui:73
+msgid "Save As"
+msgstr "Uložit jako"
+
+#: gaphor/services/helpservice/shortcuts.ui:84
+#: gaphor/services/helpservice/shortcuts.ui:90 gaphor/ui/elementeditor.glade:99
+#: gaphor/ui/elementeditor.ui:75
+msgid "Undo"
+msgstr "Zpět"
+
+#: gaphor/services/helpservice/shortcuts.ui:98
+#: gaphor/ui/elementeditor.glade:118 gaphor/ui/elementeditor.ui:90
+msgid "Redo"
+msgstr "Znovu"
+
+#: gaphor/services/helpservice/shortcuts.ui:109
+msgid "Diagrams"
+msgstr "Diagramy"
+
+#: gaphor/services/helpservice/shortcuts.ui:115
+msgid "Edit"
+msgstr "Upravit"
+
+#: gaphor/services/helpservice/shortcuts.ui:123 gaphor/ui/mainwindow.glade:191
+msgid "Editor"
+msgstr "Editor"
+
+#: gaphor/services/helpservice/shortcuts.ui:131
+msgid "Select All"
+msgstr "Vybrat vše"
+
+#: gaphor/services/helpservice/shortcuts.ui:139
+msgid "Deselect All"
+msgstr "Zrušit výběr všeho"
+
+#: gaphor/services/helpservice/shortcuts.ui:147
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: gaphor/services/helpservice/shortcuts.ui:155
+msgid "Paste (link defining elements)"
+msgstr "Vložit (prvky definující odkaz)"
+
+#: gaphor/services/helpservice/shortcuts.ui:163
+msgid "Paste (copy defining elements)"
+msgstr "Vložit (kopírování definujících prvků)"
+
+#: gaphor/services/helpservice/shortcuts.ui:171
+msgid "Delete"
+msgstr "Odstranit"
+
+#: gaphor/services/helpservice/shortcuts.ui:179
+msgid "Close Diagram"
+msgstr "Zavřít Diagram"
+
+#: gaphor/services/helpservice/shortcuts.ui:190
+msgid "Zoom"
+msgstr "Zvětšení"
+
+#: gaphor/services/helpservice/shortcuts.ui:196
+#: gaphor/ui/elementeditor.glade:140 gaphor/ui/elementeditor.ui:106
+msgid "Zoom In"
+msgstr "Přiblížit"
+
+#: gaphor/services/helpservice/shortcuts.ui:204
+#: gaphor/ui/elementeditor.glade:173 gaphor/ui/elementeditor.ui:130
+msgid "Zoom Out"
+msgstr "Oddálit"
+
+#: gaphor/services/helpservice/shortcuts.ui:212
+#: gaphor/ui/elementeditor.glade:155 gaphor/ui/elementeditor.ui:118
+msgid "Actual Size"
+msgstr "Aktuální velikost"
+
+#: gaphor/templates/blank.gaphor gaphor/ui/filemanager.py:57
+#: gaphor/ui/mainwindow.py:235 gaphor/ui/mainwindow.ui:29
+#: gaphor/ui/namespace.py:328 gaphor/ui/treecomponent.py:190
+msgid "New model"
+msgstr "Nový model"
+
+#: gaphor/templates/blank.gaphor gaphor/ui/filemanager.py:60
+msgid "main"
+msgstr "hlavní"
+
+#: gaphor/templates/c4model.gaphor
+msgid "1. Context diagrams"
+msgstr "1. Kontextové diagramy"
+
+#: gaphor/templates/c4model.gaphor
+msgid "2. Container diagrams"
+msgstr "2. Diagramy kontejnerů"
+
+#: gaphor/templates/c4model.gaphor
+msgid "4. Code diagrams"
+msgstr "4. Kódové diagramy"
+
+#: gaphor/templates/c4model.gaphor
+msgid "3. Component diagrams"
+msgstr "3. Součásti diagramů"
+
+#: gaphor/templates/c4model.gaphor
+msgid "Context diagram"
+msgstr "Kontext diagramu"
+
+#: gaphor/templates/c4model.gaphor
+msgid "Container diagram"
+msgstr "Kontejnerový diagram"
+
+#: gaphor/templates/c4model.gaphor
+msgid "Component diagram"
+msgstr "Diagram komponent"
+
+#: gaphor/templates/c4model.gaphor
+msgid "Code diagram"
+msgstr "Diagram kódu"
+
+#: gaphor/templates/raaml.gaphor gaphor/templates/uml.gaphor
+msgid "Model Name Here"
+msgstr "Název modelu zde"
+
+#: gaphor/templates/raaml.gaphor
+msgid "STPA"
+msgstr "STPA"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Loss Definition"
+msgstr "Definice ztráty"
+
+#: gaphor/templates/raaml.gaphor
+msgid "FTA"
+msgstr "FTA"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Loss of System"
+msgstr "Ztráta systému"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Loss of Subsystem 1"
+msgstr "Ztráta subsystému 1"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Loss of Subsystem 2"
+msgstr "Ztráta subsystému 2"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Hazard Definition"
+msgstr "Definice nebezpečí"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Loss of Life or Injury of People"
+msgstr "Ztráta života nebo zranění osob"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Loss of Mission"
+msgstr "Ztráta poslání"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Loss of Customer Satisfaction"
+msgstr "Ztráta spokojenosti zákazníků"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Hazard 2"
+msgstr "Nebezpečí 2"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Hazard 1"
+msgstr "Nebezpečí 1"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Mapping of Losses and Hazards"
+msgstr "Mapování ztrát a nebezpečí"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Operational Situations"
+msgstr "Provozní situace"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Operational Situation 1"
+msgstr "Provozní situace 1"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Context of UCAs"
+msgstr "Kontext UCA"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Situational Context"
+msgstr "Situační kontext"
+
+#: gaphor/templates/raaml.gaphor
+msgid "Situation Hierarchy"
+msgstr "Hierarchie situací"
+
+#: gaphor/templates/raaml.gaphor
+msgid ""
+"The fault tree analysis shows which causes for the failure of a system "
+"have been considered."
+msgstr "Analýza stromu poruch ukazuje, které příčiny selhání systému byly zváženy."
+
+#: gaphor/templates/sysml.gaphor
+msgid "1. Concept Level"
+msgstr "1. Koncepční úroveň"
+
+#: gaphor/templates/sysml.gaphor
+msgid "2. Logical Level"
+msgstr "2. Logická úroveň"
+
+#: gaphor/templates/sysml.gaphor
+msgid "3. Technology Level"
+msgstr "3. Technologická úroveň"
+
+#: gaphor/templates/sysml.gaphor
+msgid "User"
+msgstr "Uživatel"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Use Case #1"
+msgstr "Případ použití č. 1"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Behavior"
+msgstr "Chování"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Structure"
+msgstr "Struktura"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Feature Context"
+msgstr "Kontext funkce"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Operator"
+msgstr "Operátor"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Feature"
+msgstr "Funkce"
+
+#: gaphor/templates/sysml.gaphor
+msgid "External Element"
+msgstr "Externí prvek"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Stakeholder Requirements"
+msgstr "Požadavky zúčastněných stran"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Feature User Need"
+msgstr "Funkce Potřeba uživatele"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Logical Structure"
+msgstr "Logická struktura"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Sensor"
+msgstr "Senzor"
+
+#: gaphor/templates/sysml.gaphor
+msgid "sensor"
+msgstr "senzor"
+
+#: gaphor/templates/sysml.gaphor
+msgid "controller"
+msgstr "řadič"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Logical Boundary"
+msgstr "Logická hranice"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Technology Structure"
+msgstr "Technologická struktura"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Technology Boundary"
+msgstr "Technologická hranice"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Technology Requirements"
+msgstr "Technologické požadavky"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Detailed Behavior"
+msgstr "Detailní chování"
+
+#: gaphor/templates/sysml.gaphor
+msgid "System Requirements"
+msgstr "Systémové požadavky"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Logical States"
+msgstr "Logické stavy"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Feature Event Flow"
+msgstr "Průběh funkční události"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Off"
+msgstr "Vypnout"
+
+#: gaphor/templates/sysml.gaphor
+msgid "On"
+msgstr "Zapnout"
+
+#: gaphor/templates/sysml.gaphor
+msgid "actuator"
+msgstr "aktuátor"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Use Case Function #1"
+msgstr "Případ použití Funkce #1"
+
+#: gaphor/templates/sysml.gaphor
+msgid "First Action"
+msgstr "První akce"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Second Action"
+msgstr "Druhá akce"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Example System Requirement"
+msgstr "Příklad systémových požadavků"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Sensed Data"
+msgstr "Snímaná data"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Command"
+msgstr "Příkaz"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Functional Boundary Behavior"
+msgstr "Funkční hraniční chování"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Determine Actuator Command"
+msgstr "Určete příkaz aktuátoru"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Actuate Actuator"
+msgstr "Aktivační aktuátor"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Actuator Command"
+msgstr "Příkaz Aktuátoru"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Example Technolgy Requirement"
+msgstr "Příklad technolgického požadavku"
+
+#: gaphor/templates/sysml.gaphor
+msgid "System"
+msgstr "Systém"
+
+#: gaphor/templates/sysml.gaphor
+msgid "ECU"
+msgstr "ECU"
+
+#: gaphor/templates/sysml.gaphor
+msgid "DC Motor"
+msgstr "Stejnosměrný motor"
+
+#: gaphor/templates/sysml.gaphor
+msgid "IR Transceiver"
+msgstr "IR vysílač"
+
+#: gaphor/templates/sysml.gaphor
+msgid "ecu"
+msgstr "ecu"
+
+#: gaphor/templates/sysml.gaphor
+msgid "dc Motor"
+msgstr "stejnosměrný motor"
+
+#: gaphor/templates/sysml.gaphor
+msgid "ir Transceiver"
+msgstr "ir transceiver"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Detect Obstacle"
+msgstr "Detekce překážky"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Command Reverse"
+msgstr "Příkaz Rezervnosti"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Reverse Motor"
+msgstr "Reverzní motor"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Detect Object"
+msgstr "Detekce objektu"
+
+#: gaphor/templates/sysml.gaphor
+msgid "Detection Event"
+msgstr "Detekční událost"
+
+#: gaphor/templates/uml.gaphor
+msgid "1. Use Cases"
+msgstr "1. Případy použití"
+
+#: gaphor/templates/uml.gaphor
+msgid "2. Domain Analysis"
+msgstr "2. Analýza domény"
+
+#: gaphor/templates/uml.gaphor
+msgid "3. Architectural Design"
+msgstr "3. Architektonický návrh"
+
+#: gaphor/templates/uml.gaphor
+msgid "4. Detailed Design"
+msgstr "4. Podrobný návrh"
+
+#: gaphor/templates/uml.gaphor
+msgid "Main Actor"
+msgstr "Hlavní herec"
+
+#: gaphor/templates/uml.gaphor
+msgid "Main Use Case"
+msgstr "Hlavní případ použití"
+
+#: gaphor/templates/uml.gaphor
+msgid "Included Use Case"
+msgstr "Zahrnutý případ použití"
+
+#: gaphor/templates/uml.gaphor
+msgid "Secondary Actor"
+msgstr "Vedlejší herec"
+
+#: gaphor/templates/uml.gaphor
+msgid "Secondary Use Case"
+msgstr "Sekundární případ použití"
+
+#: gaphor/templates/uml.gaphor
+msgid "Use Case Scenarios"
+msgstr "Scénáře případů použití"
+
+#: gaphor/templates/uml.gaphor
+msgid "Scenario 1"
+msgstr "Scénář 1"
+
+#: gaphor/templates/uml.gaphor
+msgid "Scenario 2"
+msgstr "Scénář 2"
+
+#: gaphor/templates/uml.gaphor
+msgid "Domain Entities"
+msgstr "Subjekty domény"
+
+#: gaphor/templates/uml.gaphor
+msgid "Software Task"
+msgstr "Softwarová úloha"
+
+#: gaphor/templates/uml.gaphor
+msgid "performs"
+msgstr "provádí"
+
+#: gaphor/templates/uml.gaphor
+msgid "Package Dependencies"
+msgstr "Závislosti balíčků"
+
+#: gaphor/templates/uml.gaphor
+msgid "SW Component 1"
+msgstr "SW komponenta 1"
+
+#: gaphor/templates/uml.gaphor
+msgid "SW Component 4"
+msgstr "SW komponenta 4"
+
+#: gaphor/templates/uml.gaphor
+msgid "SW Component 3"
+msgstr "SW komponenta 3"
+
+#: gaphor/templates/uml.gaphor
+msgid "SW Component 2"
+msgstr "SW komponenta 2"
+
+#: gaphor/templates/uml.gaphor
+msgid "Primary Actor"
+msgstr "Primární aktér"
+
+#: gaphor/templates/uml.gaphor
+msgid "Actor Profile"
+msgstr "Profil aktéra"
+
+#: gaphor/templates/uml.gaphor
+msgid "login"
+msgstr "přihlásit se"
+
+#: gaphor/templates/uml.gaphor
+msgid "Detailed Class Design"
+msgstr "Podrobný návrh třídy"
+
+#: gaphor/templates/uml.gaphor
+msgid "First Class"
+msgstr "První třída"
+
+#: gaphor/templates/uml.gaphor
+msgid "firstName"
+msgstr "jméno"
+
+#: gaphor/templates/uml.gaphor
+msgid "lastName"
+msgstr "příjmení"
+
+#: gaphor/templates/uml.gaphor
+msgid "Login"
+msgstr "Přihlásit se"
+
+#: gaphor/templates/uml.gaphor
+msgid "lastLogin"
+msgstr "poslední přihlášení"
+
+#: gaphor/templates/uml.gaphor
+msgid "Second Class"
+msgstr "Druhá třída"
+
+#: gaphor/templates/uml.gaphor
+msgid "released"
+msgstr "vydáno"
+
+#: gaphor/templates/uml.gaphor
+msgid "Implementation Architecture"
+msgstr "Implementační architektura"
+
+#: gaphor/templates/uml.gaphor
+msgid "Node 1"
+msgstr "Uzel 1"
+
+#: gaphor/templates/uml.gaphor
+msgid "Artifact 1"
+msgstr "Artefakt 1"
+
+#: gaphor/templates/uml.gaphor
+msgid "Node 2"
+msgstr "Uzel 2"
+
+#: gaphor/templates/uml.gaphor
+msgid "protocol"
+msgstr "protokol"
+
+#: gaphor/templates/uml.gaphor
+msgid "Artifact 2"
+msgstr "Artefakt 2"
+
+#: gaphor/templates/uml.gaphor
+msgid ""
+"Analyze functional requirements by\n"
+"identifying user roles – actors – and\n"
+"associating them to their use cases."
+msgstr ""
+"Analyzujte funkční požadavky pomocí\n"
+"identifikace uživatelských rolí - aktérů - a\n"
+"jejich přiřazení k případům užití."
+
+#: gaphor/templates/uml.gaphor
+msgid ""
+"Model abstract use case implementation by creating activity diagrams "
+"visualizing activity flows for primary and secondary use case scenarios."
+msgstr ""
+"Modelování abstraktní implementace případů užití vytvořením diagramů "
+"aktivit vizualizujících toky aktivit pro primární a sekundární scénáře "
+"případů užití."
+
+#: gaphor/templates/uml.gaphor
+msgid ""
+"Perform domain analysis by modeling domain entities and their "
+"relationships using simplified class diagram. This diagram will serve as "
+"a visual dictionary of concepts. It will also be a starting point for "
+"your design-level data model."
+msgstr ""
+"Proveďte analýzu domény modelováním entit domény a jejich vztahů pomocí "
+"zjednodušeného diagramu tříd. Tento diagram bude sloužit jako vizuální "
+"slovník pojmů. Bude také výchozím bodem pro váš datový model na úrovni "
+"návrhu."
+
+#: gaphor/templates/uml.gaphor
+msgid ""
+"Prepare package dependencies diagram to group your implementation classes"
+" in appropriate way. This will help you maintain the code well structured"
+" and avoid design flaws such as cyclic dependencies or dependencies on "
+"unstable parts"
+msgstr ""
+"Připravte si diagram závislostí balíčků, abyste mohli vhodným způsobem "
+"seskupit implementační třídy. To vám pomůže udržet kód dobře "
+"strukturovaný a vyhnout se chybám v návrhu, jako jsou cyklické závislosti"
+" nebo závislosti na nestabilních částech."
+
+#: gaphor/templates/uml.gaphor
+msgid ""
+"Model component interactions for use case scenarios in order to find out "
+"new methods in\n"
+"existing classes or even new classes with specific responsibilities."
+msgstr ""
+"Modelování interakcí komponent pro scénáře případů použití s cílem nalézt"
+" nové metody ve\n"
+"existujících tříd nebo dokonce nových tříd se specifickými povinnostmi."
+
+#: gaphor/templates/uml.gaphor
+msgid "Create detailed class diagrams to capture your object-oriented data model."
+msgstr ""
+"Vytvářejte podrobné diagramy tříd pro zachycení objektově orientovaného "
+"datového modelu."
+
+#: gaphor/templates/uml.gaphor
+msgid ""
+"Define the major artifacts that manifest implementation of your "
+"components. Indicate how they are deployed on hardware nodes, their "
+"inter-dependencies and communication protocols."
+msgstr ""
+"Definujte hlavní artefakty, které jsou projevem implementace vašich "
+"komponent. Uveďte, jak jsou nasazeny na hardwarových uzlech, jejich "
+"vzájemné závislosti a komunikační protokoly."
+
+#: gaphor/templates/uml.gaphor
+msgid "String"
+msgstr "Řetězec"
+
+#: gaphor/templates/uml.gaphor
+msgid "Date"
+msgstr "Datum"
+
+#: gaphor/ui/appfilemanager.py:14 gaphor/ui/filedialog.py:13
+msgid "All Gaphor Models"
+msgstr "Všechny modely Gaphor"
+
+#: gaphor/ui/appfilemanager.py:46
+msgid ""
+"{filename} is already opened. Do you want to switch to the opened window "
+"instead?"
+msgstr ""
+"{filename} je již otevřeno. Chcete se místo toho přepnout do otevřeného "
+"okna?"
+
+#: gaphor/ui/appfilemanager.py:68
+msgid "Open a Model"
+msgstr "Otevřete model"
+
+#: gaphor/ui/diagrampage.py:128 gaphor/ui/namespaceview.py:143
+#: gaphor/ui/treemodel.py:44
+msgid "<None>"
+msgstr "<None>"
+
+#: gaphor/ui/elementeditor.glade:14 gaphor/ui/elementeditor.ui:11
+msgid "No item selected"
+msgstr "Není vybrána žádná položka"
+
+#: gaphor/ui/elementeditor.glade:28 gaphor/ui/elementeditor.ui:23
+msgid "Show Tips"
+msgstr "Zobrazit tipy"
+
+#: gaphor/ui/elementeditor.glade:63 gaphor/ui/elementeditor.ui:49
+msgid ""
+"Add a model element from the tool box to the diagram. Here you will see "
+"it's properties appear.\n"
+"\n"
+"This pane can be hidden by clicking the pane icon in the header.\n"
+"\n"
+"<b>Tip:</b> Most elements in the toolbox have a keyboard shortcut (e.g. "
+"\"c\" for Class).\n"
+"Tool selection only works from the diagram. If a tool does not get "
+"selected, click on the diagram once (so it's focused) and then hit the "
+"shortcut key.\n"
+"\n"
+"<b>Tip:</b> To search for an element in the tree view, select an element "
+"in the tree view and start typing. A search box will automatically "
+"appear.\n"
+msgstr ""
+"Přidejte do diagramu prvek modelu ze schránky nástrojů. Zde se zobrazí jeho "
+"vlastnosti.\n"
+"\n"
+"Tento panel lze skrýt kliknutím na ikonu panelu v záhlaví.\n"
+"\n"
+"<b>Tip:</b> Většina prvků v panelu nástrojů má klávesovou zkratku (např. \"c"
+"\" pro Class).\n"
+"Výběr nástroje funguje pouze z diagramu. Pokud se nástroj nevybere, klikněte "
+"jednou na diagram (aby byl zaostřený) a pak stiskněte klávesovou zkratku.\n"
+"\n"
+"<b>Tip:</b> Chcete-li vyhledat prvek ve stromovém zobrazení, vyberte prvek "
+"ve stromovém zobrazení a začněte psát. Automaticky se zobrazí vyhledávací "
+"pole.\n"
+
+#: gaphor/ui/elementeditor.glade:254 gaphor/ui/elementeditor.ui:171
+msgid "Editors"
+msgstr "Editoři"
+
+#: gaphor/ui/elementeditor.glade:283 gaphor/ui/elementeditor.ui:219
+msgid "Reset Tool Automatically"
+msgstr ""
+
+#: gaphor/ui/elementeditor.glade:313 gaphor/ui/elementeditor.ui:237
+msgid "Remove Unused Elements"
+msgstr "Odstranit nepoužívané prvky"
+
+#: gaphor/ui/elementeditor.glade:314 gaphor/ui/elementeditor.glade:326
+#: gaphor/ui/elementeditor.ui:239 gaphor/ui/elementeditor.ui:246
+msgid "Automatically remove elements no longer in use in any diagram."
+msgstr ""
+
+#: gaphor/ui/elementeditor.glade:342 gaphor/ui/elementeditor.ui:254
+msgid "Style Sheet"
+msgstr "Předloha stylů"
+
+#: gaphor/ui/elementeditor.glade:377 gaphor/ui/elementeditor.ui:279
+msgid ""
+"🔗 <a "
+"href=\"https://gaphor.readthedocs.io/en/latest/style_sheets.html\">Style "
+"sheets in Gaphor</a>"
+msgstr ""
+"🔗 <a href=\"https://gaphor.readthedocs.io/en/latest/style_sheets.html\""
+">Styly v Gaphoru</a>"
+
+#: gaphor/ui/errorhandler.py:25
+msgid ""
+"It looks like Gaphor is started from the command line. Do you want to "
+"open a debug session?"
+msgstr ""
+"Vypadá to, že se Gaphor spouští z příkazového řádku. Chcete otevřít relaci "
+"ladění?"
+
+#: gaphor/ui/errorhandler.py:28 gaphor/ui/errorhandler.py:31
+msgid "Close"
+msgstr "Zavřít"
+
+#: gaphor/ui/errorhandler.py:28
+msgid "Start debug session"
+msgstr "Spustit relaci ladění"
+
+#: gaphor/ui/filedialog.py:33
+msgid "All Files"
+msgstr "Všechny soubory"
+
+#: gaphor/ui/filemanager.py:36
+msgid ""
+"Gaphor was not able to store the model, probably due to an internal "
+"error:\n"
+"{exc}\n"
+"If you think this is a bug, please contact the developers."
+msgstr ""
+
+#: gaphor/ui/filemanager.py:40
+msgid ""
+"You do not have the permissions necessary to save the model.\n"
+"Please check that you typed the location correctly and try again."
+msgstr ""
+"Nemáte potřebná oprávnění k uložení modelu.\n"
+"Zkontrolujte, zda jste správně zadali umístění, a zkuste to znovu."
+
+#: gaphor/ui/filemanager.py:44
+msgid ""
+"You do not have enough free space on the device to save the model.\n"
+"Please free up some disk space and try again or save it in a different "
+"location."
+msgstr ""
+
+#: gaphor/ui/filemanager.py:47
+msgid ""
+"The model cannot be stored at this location:\n"
+"{exc}\n"
+"Please check that you typed the location correctly and try again."
+msgstr ""
+
+#: gaphor/ui/filemanager.py:122
+msgid "Loading…"
+msgstr ""
+
+#: gaphor/ui/filemanager.py:123
+msgid "Loading model from {filename}"
+msgstr "Načítání modelu z {filename}"
+
+#: gaphor/ui/filemanager.py:159
+msgid "Unable to open model “{filename}”."
+msgstr ""
+
+#: gaphor/ui/filemanager.py:162
+msgid "This file does not contain a valid Gaphor model."
+msgstr ""
+
+#: gaphor/ui/filemanager.py:191
+msgid "Saving…"
+msgstr ""
+
+#: gaphor/ui/filemanager.py:192
+msgid "Saving model to {filename}"
+msgstr ""
+
+#: gaphor/ui/filemanager.py:209
+msgid "Unable to save model “{filename}”."
+msgstr ""
+
+#: gaphor/ui/filemanager.py:246 gaphor/ui/filemanager.py:281
+msgid "Save Gaphor Model As"
+msgstr ""
+
+#: gaphor/ui/filemanager.py:302
+msgid "Save changes before closing?"
+msgstr ""
+
+#: gaphor/ui/filemanager.py:303
+msgid "Closing will cause any unsaved changes to be discarded."
+msgstr ""
+
+#: gaphor/ui/filemanager.py:310
+msgid "Close without saving changes"
+msgstr ""
+
+#: gaphor/ui/filemanager.py:312
+msgid "Cancel"
+msgstr ""
+
+#: gaphor/ui/greeter.glade:102 gaphor/ui/greeter.ui:87
+msgid "Create New Model…"
+msgstr ""
+
+#: gaphor/ui/greeter.glade:109 gaphor/ui/greeter.ui:93
+msgid "Open Other Model…"
+msgstr ""
+
+#: gaphor/ui/greeter.py:25
+msgid "Generic"
+msgstr ""
+
+#: gaphor/ui/greeter.py:164
+msgid "Create a New Model"
+msgstr ""
+
+#: gaphor/ui/greeter.py:168
+msgid "Open a Recent Model"
+msgstr ""
+
+#: gaphor/ui/mainwindow.glade:84
+msgid "Gaphor"
+msgstr ""
+
+#: gaphor/ui/mainwindow.glade:148
+msgid "Create New diagram"
+msgstr ""
+
+#: gaphor/ui/mainwindow.glade:169
+msgid "Open Application Menu"
+msgstr ""
+
+#: gaphor/ui/mainwindow.py:43
+msgid "Open a Model…"
+msgstr ""
+
+#: gaphor/ui/mainwindow.py:44
+msgid "Recent Models…"
+msgstr ""
+
+#: gaphor/ui/mainwindow.py:45
+msgid "New Model…"
+msgstr ""
+
+#: gaphor/ui/mainwindow.py:50
+msgid "Save As…"
+msgstr ""
+
+#: gaphor/ui/mainwindow.py:51
+msgid "Export"
+msgstr ""
+
+#: gaphor/ui/mainwindow.py:55
+msgid "Tools"
+msgstr ""
+
+#: gaphor/ui/mainwindow.py:59
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: gaphor/ui/mainwindow.py:86
+msgid "New Generic Diagram"
+msgstr ""
+
+#: gaphor/ui/mainwindow.py:237
+msgid "edited"
+msgstr ""
+
+#: gaphor/ui/mainwindow.py:271
+msgid "Profile: {name}"
+msgstr ""
+
+#: gaphor/ui/namespace.py:48
+msgid "_Open"
+msgstr ""
+
+#: gaphor/ui/namespace.py:48
+msgid "Add to diagram"
+msgstr ""
+
+#: gaphor/ui/namespace.py:51
+msgid "_Rename"
+msgstr ""
+
+#: gaphor/ui/namespace.py:56
+msgid "New _Diagram"
+msgstr ""
+
+#: gaphor/ui/namespace.py:58
+msgid "New _Package"
+msgstr ""
+
+#: gaphor/ui/namespace.py:62
+msgid "De_lete"
+msgstr ""
+
+#: gaphor/ui/namespace.py:72
+msgid "Show in “{diagram}”"
+msgstr ""
+
+#: gaphor/ui/namespace.py:326 gaphor/ui/treecomponent.py:188
+msgid "{name} package"
+msgstr ""
+
+#: gaphor/ui/namespace.py:344
+msgid "New diagram"
+msgstr ""
+
+#: gaphor/ui/namespaceview.py:141 gaphor/ui/tests/test_treemodel.py:162
+#: gaphor/ui/treemodel.py:62
+msgid "<Relationships>"
+msgstr ""
+
+#~ msgid "Default Region"
+#~ msgstr "Výchozí oblast"
