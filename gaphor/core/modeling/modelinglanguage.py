@@ -37,7 +37,7 @@ class MockModelingLanguage(ModelingLanguage):
 
     @property
     def diagram_types(self):
-        return ()
+        raise ValueError("No diagram types for the mock model")
 
     def lookup_element(self, name):
         return next(
